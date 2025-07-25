@@ -1,61 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <title>Noblesse Internationale</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 30px;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <title>Noblesse Internationale</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 30px;
+      }
 
-    img {
-      max-width: 150px;
-      margin-bottom: 20px;
-    }
+      img {
+        max-width: 150px;
+        margin-bottom: 20px;
+      }
 
-    h1 {
-      color: #5c2d91;
-    }
+      h1 {
+        color: #5c2d91;
+      }
 
-    .language-switch button {
-      margin: 10px;
-      padding: 8px 16px;
-      font-weight: bold;
-      cursor: pointer;
-      background-color: #eee;
-      border: none;
-      border-radius: 5px;
-    }
-  </style>
-</head>
-<body>
+      .language-switch button {
+        margin: 10px;
+        padding: 8px 16px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="logo.png" alt="Logo Noblesse" />
 
-  <img src="logo.png" alt="Logo Noblesse" width="120">
+    <div id="fr">
+      <p><strong>Notre mission :</strong> Solidarité, dignité et engagement.</p>
+      <p>Découvrez nos actions humanitaires, nos campagnes et comment contribuer :</p>
+      <p>👉 <a href="https://pots.lydia.me/collect/pots?id=12454-noblesse-pour-les-grands-brules">Faire un don sur Lydia</a></p>
+      <p>👉 <a href="https://www.paypal.me/Noblesse204">Faire un don sur PayPal</a></p>
+      <p>👉 <a href="https://www.helloasso.com/associations/groupe-noblesse/formulaires/2">Faire un don sur HelloAsso</a></p>
+    </div>
 
-  <div id="fr">
-    <p><strong>Notre mission :</strong> Solidarité, dignité et espoir</p>
-    <p>Découvrez nos actions humanitaires, nos campagnes et comment nous soutenir.</p>
-    <p>👉 <a href="https://pots.lydia.me/collect/pots?id=12454-noblesse-pour-les-grands-brules">Faites un don via Lydia</a></p>
-    <p>👉 <a href="https://www.paypal.me/Noblesse204">Faire un don via PayPal</a></p>
-    <p>👉 <a href="https://www.helloasso.com/associations/groupe-noblesse/formulaires/2">Faites un don via HelloAsso</a></p>
-  </div>
+    <div id="en" style="display: none;">
+      <p><strong>Our mission:</strong> Solidarity, dignity and commitment.</p>
+      <p>Discover our humanitarian actions, campaigns and how to contribute:</p>
+      <p>👉 <a href="https://pots.lydia.me/collect/pots?id=12454-noblesse-pour-les-grands-brules">Donate via Lydia</a></p>
+      <p>👉 <a href="https://www.paypal.me/Noblesse204">Donate via PayPal</a></p>
+      <p>👉 <a href="https://www.helloasso.com/associations/groupe-noblesse/formulaires/2">Donate via HelloAsso</a></p>
+    </div>
 
-  <div id="en" style="display:none;">
-    <p><strong>Our mission:</strong> Solidarity, dignity and hope</p>
-    <p>Discover our humanitarian actions, our campaigns and how to support us.</p>
-    <p>👉 <a href="https://pots.lydia.me/collect/pots?id=12454-noblesse-pour-les-grands-brules">Donate via Lydia</a></p>
-    <p>👉 <a href="https://www.paypal.me/Noblesse204">Donate via PayPal</a></p>
-    <p>👉 <a href="https://www.helloasso.com/associations/groupe-noblesse/formulaires/2">Donate via HelloAsso</a></p>
-  </div>
+    <div class="language-switch">
+      <button onclick="document.getElementById('fr').style.display='block'; document.getElementById('en').style.display='none';">🇫🇷 Français</button>
+      <button onclick="document.getElementById('fr').style.display='none'; document.getElementById('en').style.display='block';">🇬🇧 English</button>
+    </div>
 
-  <div class="language-switch">
-    <button onclick="document.getElementById('fr').style.display='block';document.getElementById('en').style.display='none';">FR</button>
-    <button onclick="document.getElementById('fr').style.display='none';document.getElementById('en').style.display='block';">EN</button>
-  </div>
-
-  <p>© 2025 Noblesse Internationale - Tous droits réservés.</p>
-
-</body>
+    <p>© 2025 Noblesse Internationale - Tous droits réservés</p>
+  </body>
 </html>
